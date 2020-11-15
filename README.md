@@ -24,7 +24,7 @@
   * There are two different datasets for this problem statement. The first one comprising of 'ID', 'Gene', 'Variation' and 'Class', while the second dataset containing 'ID' and 'Text'. The datasets were cleaned and then joined over 'ID' column using the 'left join'. The categorical features of 'Gene' and 'Variation' were vectorised using **Bag of Words**, while the 'Text' column consisting of the important clinical text was vectorised using the **tf-idf** vectorizer.
   * After this vectorizations, the respective features were horizontally stacked and the dataset was then split into train, cross-validation and test sets. Hyper-parameter tuning was carried out for **Logistic Regression**, **Linear SVM** and **Random Forest** to decide the optimum parameters and then the model was trained over those parameters.
   * Finally, the results from each model were compared using **log-loss** and the **mis-classification error**.
-  * The model not only classifies the pair into one of the 9 classes but also says the probability with which it ascribes each pair for a particular class.
+  * The model not only classifies the pair into one of the 9 classes but also returns the probability with which it ascribes each pair for a particular class.
 
   
 # 2. **Moneyball Project**-
