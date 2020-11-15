@@ -5,7 +5,7 @@
    
    * Once sequenced, a cancer tumor can have thousands of genetic mutations. Currently this interpretation of genetic mutations is being done manually. This is a very time-consuming task where a clinical pathologist has to manually review and classify every single genetic mutation based on evidence from text-based clinical literature. In order to ease this gruesome process this is a model which can save the clinical pathologists’ several hours of literature review for classifying this mutation.
 
-   * This is a multi-class classification problem for which the data is available at https://www.kaggle.com/c/msk-redefining-cancer-treatment/data
+   * This is a multi-class classification problem for which the dataset is available at https://www.kaggle.com/c/msk-redefining-cancer-treatment/data
    
   **Features**
   
@@ -33,7 +33,7 @@
         
    * Inspired by the movie *'Moneyball'* which is based on how an algorithm played a major role in strategizing for an underdog team and lead them to victory in a major      Baseball League in America, I decided to make a similar algorithm for predicting whether a particular baseball team can make it to qualifiers or not.
   
-   * This is a binary classification problem for which the data is available at https://www.kaggle.com/wduckett/moneyball-mlb-stats-19622012
+   * This is a binary classification problem for which the dataset is available at https://www.kaggle.com/wduckett/moneyball-mlb-stats-19622012
   
   **Features**
   
