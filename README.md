@@ -14,8 +14,8 @@
           i)    ID
           ii)   Gene
           iii)  Variation
-          iv)   Text -  The clinical texts which the pathologists refer in order to classify a gene's variation as cancerous 
-                        or non-cancerous. 
+          iv)   Text -  The clinical texts which the pathologists refer in order to classify a gene's 
+                        variation as cancerous or non-cancerous. 
           v)    Class - 9 classes for classifying the mutations into.  
       
       
