@@ -1,5 +1,5 @@
 # DataScience_Projects
-# 1. **Cancer Diagnosis**
+# 1. **Cancerous Gene Classification**
 
    **Overview**
    
