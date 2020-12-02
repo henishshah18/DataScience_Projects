@@ -53,7 +53,7 @@
       
   **Technical Aspects**
   
-  * The dataset comprised nearly 70 % of missing values in the significant features of 'OOBP' and 'OSLG' which were then filled using **Model Imputation** using **Linear Regression**.
+  * The dataset comprised nearly 70 % of missing values in the significant features of 'OOBP' and 'OSLG' which I then filled using **Model Imputation** through **Linear Regression**.
   * The dataset consists the data for two major Baseball leagues in America namely, 'American League' and 'National League'. Hence, the dataset was then split into two sections.
   * Performing EDA and plotting the 'pairplots' revealed various important features which were instrumental in deciding whether a team qualifies or not.  
   * The models used in this instance were **Gradient Boost Decision Tree (GBDT)** and **Logistic Regression**.
