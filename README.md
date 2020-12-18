@@ -1,5 +1,30 @@
 # DataScience_Projects
-# 1. **Cancerous Gene Classification**
+
+# 1. **Fake News Detection**
+
+  **Overview**
+  
+  * With an increasing number of people across the world relying on social media as their primary source of news, there is a need to tackle the underlying problem of fake news on those platforms. This project aims to do that by employing techniques of Natural Language Processing (NLP) and cross-references the piece of information entered by the user with the news articles scraped from renowned news websites around a topic. 
+  
+  * The dataset for this project was scraped from https://abcnews.go.com/ around three pertinent topics namely, Coronavirus, Donald Trump and US Elections. 
+  
+  **Features**
+  
+  * Features used in the dataset-
+  
+        i)   Link      - URL Link to the relevant news articles
+        ii)  Title     - Title of the news articles
+        iii) Content   - The actual content of the news articles
+        iv)  Category  - Categories like International, Health, US, Sports, Politics, etc into which the articles are classified into
+        
+  **Technical Aspects**
+  
+  * After the initial data cleaning and pre-processing the 'Content' feature is tokenized so that we can train the **'word2vec'** over it. After training the 'word2vec' and obtaining the vectors, we use **'tsne'** to reduce the dimensionality to 2-D which also helps us visualize the points better. The 'tsne' is run with multiple perplexity and iteration values in order to find out the optimum parameters. With the help of this plot as well as methods like '.similarity' and '.most_similar' of gensim's word2vec, we determine the credibility of the string entered by the user as well as return the relevant list of articles around that topic.
+  * For demonstration purposes, I have scraped around 19k articles. But, more exhaustive the dataset is, the better 'word2vec' will get trained and inturn yield better results. Ofcourse, the downside to that will be that training the model will take more time respectively.
+  
+  ***Note**: Edit the 'config.json' file to add the path to the 'ChromeDriver' installed on the device and add the name of the topic which you'd like to scrape in the 'search_key' variable. Run the 'NewsWebScraping.py' file to scrape the news website.* 
+
+# 2. **Cancerous Gene Classification**
 
    **Overview**
    
@@ -27,7 +52,7 @@
   * The model not only classifies the pair into one of the 9 classes but also returns the probability with which it ascribes each pair for a particular class.
 
   
-# 2. **Moneyball Project**
+# 3. **Moneyball Project**
 
    **Overview**
         
