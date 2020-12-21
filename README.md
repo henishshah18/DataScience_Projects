@@ -23,7 +23,7 @@
   * Equipped with this information, the user can then determine whether the entered data is credible or not. To aid this process, the program also returns the list of top 50 articles around the entered string so that the user can verify the source of this output information. The list is sorted on the basis of maximum number of words of the input corpus appearing in the title, the content of the respective article and the frequency of those words in it.
   * For demonstration purposes, I have scraped around 19k articles. But, more exhaustive the dataset is, the better 'word2vec' will get trained and in-turn yield better results. Ofcourse, the downside to that will be that training the model will take more time accordingly.
   
-  ***Note**: Edit the 'config.json' file to add the path to the 'ChromeDriver' installed on the device and add the name of the topic which you'd like to scrape in the 'search_key' variable. Run the 'NewsWebScraping.py' file to scrape the news website.* 
+      ***Note**: Edit the 'config.json' file to add the path to the 'ChromeDriver' installed on the device and add the name of the topic which you'd like to scrape in the   'search_key' variable. Run the 'NewsWebScraping.py' file to scrape the news website.* 
 
 # 2. **Cancerous Gene Classification**
 
