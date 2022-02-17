@@ -53,7 +53,7 @@
   * The model not only classifies the pair into one of the 9 classes but also returns the probability with which it ascribes each pair for a particular class.
 
   
-# 3. **Moneyball Project**
+# 3. **MLB Qualifier Predictor**
 
    **Overview**
         
